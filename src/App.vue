@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <home />
+    <tab-bar />
     <router-view />
   </div>
 </template>
 
 <script>
-import Home from '@/views/home/Home.vue'
+import TabBar from '@/components/common/tabBar/TabBar.vue'
 export default {
-  data() {},
+  data() {
+    return {}
+  },
   components: {
-    Home
+    TabBar
   }
 }
 </script>
